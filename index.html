@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Abdullah Zaheer | Personal Portfolio</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation / Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="#">Abdullah Zaheer</a>
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME Section -->
+    <section id="home" class="section home-section">
+      <div class="container home-container">
+        <div class="home-content">
+          <span class="greeting">Hello, I'm</span>
+          <h1>Abdullah Zaheer</h1>
+          <p class="tagline">MERN Developer</p>
+          <p class="home-description">I craft modern, responsive web experiences with clean code and thoughtful design. Based in Multan, Pakistan.</p>
+          <a href="#contact" class="btn btn-primary">Let's Connect</a>
+        </div>
+        <div class="home-image">
+          <img src="./assets/Abdullah.jpg" alt="Abdullah Zaheer portrait - front-end developer">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm Abdullah, a passionate front-end developer with 4+ years of experience turning ideas into functional, pixel-perfect websites. I believe that great design and performance go hand in hand.</p>
+            <p>My journey began with a curiosity for how things work online, and today I collaborate with designers, product teams, and creators to build interfaces people love to use. I hold a degree in Computer Science and continuously explore new web technologies.</p>
+            <p>When I'm not coding, you'll find me hiking, reading sci-fi novels, or contributing to open-source projects. I'm always excited to take on new challenges and grow as a developer.</p>
+            <ul class="about-highlights">
+              <li><i class="fas fa-code"></i> Clean, semantic HTML/CSS</li>
+              <li><i class="fas fa-mobile-alt"></i> Mobile-first responsive design</li>
+              <li><i class="fas fa-palette"></i> Eye for modern UI/UX</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img src="./assets/AboutMePhoto.jpg" alt="Developer workspace concept">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2 class="section-title">My Skills & Tools</h2>
+        <div class="skills-grid">
+          <div class="skills-card">
+            <h3><i class="fas fa-laptop-code"></i> Front-End Development</h3>
+            <ul class="skills-list">
+              <li>HTML5 & Semantic Markup</li>
+              <li>CSS3 (Flexbox, Grid, Animations)</li>
+              <li>JavaScript (ES6+)</li>
+              <li>Responsive & Mobile Design</li>
+              <li>Tailwind CSS / Bootstrap</li>
+            </ul>
+          </div>
+          <div class="skills-card">
+            <h3><i class="fas fa-tools"></i> Tools & Workflow</h3>
+            <ul class="skills-list">
+              <li>Git & GitHub</li>
+              <li>VS Code / Figma</li>
+              <li>Chrome DevTools</li>
+              <li>Web Accessibility</li>
+              <li>Performance Optimization</li>
+            </ul>
+          </div>
+          <div class="skills-card">
+            <h3><i class="fas fa-brain"></i> Soft Skills</h3>
+            <ul class="skills-list">
+              <li>Problem Solving</li>
+              <li>Team Collaboration</li>
+              <li>Agile Methodologies</li>
+              <li>Creative Thinking</li>
+              <li>Time Management</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skill-proficiency">
+          <h3>Core Proficiency</h3>
+          <div class="proficiency-bars">
+            <div class="pro-item">
+              <span>HTML5</span>
+              <div class="progress-bar"><div class="progress html-progress" style="width: 95%"></div></div>
+            </div>
+            <div class="pro-item">
+              <span>CSS3</span>
+              <div class="progress-bar"><div class="progress css-progress" style="width: 90%"></div></div>
+            </div>
+            <div class="pro-item">
+              <span>JavaScript</span>
+              <div class="progress-bar"><div class="progress js-progress" style="width: 80%"></div></div>
+            </div>
+            <div class="pro-item">
+              <span>Responsive Design</span>
+              <div class="progress-bar"><div class="progress resp-progress" style="width: 92%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2 class="section-title">Let's Talk</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <p>I’m currently available for freelance work or full-time opportunities. Feel free to reach out — whether it's a project, a question, or just to say hi!</p>
+            <ul class="contact-details">
+              <li><i class="fas fa-envelope"></i> abdullah177840@gmail.com</li>
+              <li><i class="fas fa-phone-alt"></i> +92 322 6858721</li>
+              <li><i class="fas fa-map-marker-alt"></i> Multan, Pakistan</li>
+            </ul>
+            <div class="social-links">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Codepen"><i class="fab fa-codepen"></i></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="#" method="post">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="hello@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or idea..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Abdullah Zaheer — Built with <i class="fas fa-heart"></i> using HTML & CSS. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
